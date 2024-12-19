@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>dom</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <header>
+
+        <h1 id="heading">Welcome</h1>
+        <p>HELLO!</p>
+    </header>
+    <p>Let's explore the journy of the space of kingdome
+    </p>
+    <script>
+        let div=document.createElement('div');
+        div.id="paragraph"
+        div.className="alert";
+        div.innerHTML="<p>This is the day to EXPLORE the journey!</p>";
+        document.body.append(div);
+        let heading=document.getElementById("heading");
+        heading.innerHTML='&#128512';
+        document.querySelector('header p').innerHTML="<strong>CHOP CHOP WHAT ARE YOU WAITING FOR!</strong>";
+    </script>
+   
+</body>
+</html>
